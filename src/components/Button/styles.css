@@ -1,0 +1,19 @@
+.buttonMenu{
+    margin-top: 10px;
+    width: 100px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #F16262;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}

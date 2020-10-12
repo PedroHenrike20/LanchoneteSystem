@@ -1,0 +1,27 @@
+.headerContainer{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: #F16262;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.containerLogoHeader{
+    width: 12vw;
+    height: 7vh ;
+    border-radius: 0.5em;
+    border: 1px solid #FFFFFFFF;
+}
+
+.linkSobre{
+    text-decoration: none;
+    cursor: pointer;
+    font: 400 1.5rem "Sansita";
+    color: white
+}
