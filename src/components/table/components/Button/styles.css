@@ -1,0 +1,16 @@
+.containerButtonTable{
+    width: 8vw;
+    height: 8vh;
+    background-color: #F16262;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font: 400 1.6rem "Ubuntu";
+    color: #FFFF;
+}
+
+.legendButtonTable{
+    font: 400 1.2rem "Sansita";
+    color: #FFFF
+}

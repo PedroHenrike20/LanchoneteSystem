@@ -13,15 +13,47 @@
 }
 
 .containerLogoHeader{
-    width: 12vw;
+    width: 15vw;
     height: 7vh ;
     border-radius: 0.5em;
     border: 1px solid #FFFFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkLegend{
+    text-decoration: none;
 }
 
-.linkSobre{
+.linkAbas{
     text-decoration: none;
     cursor: pointer;
     font: 400 1.5rem "Sansita";
-    color: white
+    color: white;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+
+.linkAbas:hover{
+    padding-top: 5px;
+    border-bottom: solid 5px;
+}
+
+.abasContainerHeader{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ButtonContainer{
+    width: 15vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
 }

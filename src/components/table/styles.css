@@ -1,0 +1,47 @@
+.table{
+    /* margin-bottom: 35px; */
+    width: 50vw;
+    height: 10vh;
+    border: solid 2px #FF0000;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.containerImage{
+    margin: 5px 15px;
+    width: 7vw;
+    height: 8vh;
+    border-radius: 5px;
+    background-color: thistle;
+}
+
+.containerDescricao{
+    margin: 5px 0;
+    width: 33vw;
+    height: 8vh;
+    /* background-color: turquoise; */
+}
+
+.containerButtonBuy{
+    margin: 5px 15px;
+    width: 7vw;
+    height: 8vh;
+    display: flex;
+}
+
+.descricaoLanche{
+    font: 400 1.1rem "Ubuntu"
+}
+.titleLanche{
+    font: 700 1.5rem "Sansita";
+    margin-bottom: 5px;
+}
+.LinkLegend, .titleLanche, .descricaoLanche{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.espacamentoTable{
+    margin-bottom: 30px;
+}

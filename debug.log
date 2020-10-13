@@ -1,2 +1,4 @@
 [1011/182811.347:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [1011/210836.483:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\rafae\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\4e5eb12d-1388-4be4-8240-afc58c0b6243: O sistema não pode encontrar o caminho especificado. (0x3)
+[1012/092336.744:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1012/201857.864:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

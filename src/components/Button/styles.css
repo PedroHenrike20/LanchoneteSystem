@@ -3,17 +3,22 @@
     width: 100px;
     height: 45px;
     border-radius: 15px;
-    background-color: #F16262;
     color: #FFFFFF;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     justify-content: center;
     text-align: center;
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 45px;
+}
+
+.legendButton{
+    font: 400 1.5rem Sansita;
+
+    
 }

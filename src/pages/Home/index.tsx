@@ -9,7 +9,7 @@ import './styles.css'
 function Home(){
     return(
         <div id="containerHome">
-            <Header/>
+            <Header aba1="Sobre"/>
             <img className="logoFundo" alt="Logo" src={logoFundo} />
 
             <div className="conteudoContainer">
@@ -25,7 +25,7 @@ function Home(){
                             <h1 className="legendTitle">&</h1>
                             <h1 className="legendTitle">Porções</h1>                    
                         </div>
-                        <Button name="Acessar o cardápio"/>
+                        <Button backgroundcolor=" #F16262" to="/menu" color="#FFFFFF" name="Acessar o cardápio"/>
                         <div className="espacamento"/>
                         <div className="legendFuncionamento">
                             <p>Atendimento das 19:00 às 02:00</p>
