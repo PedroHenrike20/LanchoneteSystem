@@ -16,7 +16,7 @@ function Routes(){
                 <Route path="/menu/frangos" render={(props)=><Menu {...props} children={<ContainerPage/>}/>}/>
                 <Route path="/menu/porções" render={(props)=><Menu {...props} children={<ContainerPage/>}/>}/>
                 <Route path="/menu/monte%ja%o%seu" render={(props)=><Menu {...props} children={<ContainerPage/>}/>}/>
-                <Route path="/menu/details?lanche=a" render={(props)=><Menu {...props} children={<ContainerPageDetails/>}/>}/>
+                <Route path="/menu/details" render={(props)=><Menu {...props} children={<ContainerPageDetails/>}/>}/>
             </Switch>
         </BrowserRouter>
     )

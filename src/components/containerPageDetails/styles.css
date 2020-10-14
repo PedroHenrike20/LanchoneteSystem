@@ -1,8 +1,98 @@
 .containerPageDetails{
-    width: 60vw;
-    height: 90vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 35px;
+}
+
+.detailsContainer{
+    width: 100%;
+    height: 30vh;
+    /* background-color: aquamarine; */
+    padding: 20px;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.imageContainer{
+    margin: 30px 20px;
+    width: 18vw;
+    height: 19vh;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+.detailsLanche{
+    margin-top: 25px;
+    width: 30vw;
+    height: 19vh;
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleStyle{
+    font: 700 3.5rem "Sansita";
+}
+
+.titleLancheContainer{
+    width: 30vw;
+    height: 7vh;
+    /* background-color:darkgreen; */
+    padding: 2px 4px;
+}
+
+.legendLancheContainer{
+    padding: 5px 10px;
+    width: 30vw;
+    height: 13vh;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: darkmagenta; */
+}
+
+.modification{
+    width: 100%;
+    height: 60vh;
+    /* background-color: darkorchid; */
+}
+
+.alterarPaoContainer{
+    width: 100%;
+    height: 25vh;
+    /* background-color: darkred; */
+}
+
+.headerTitle{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 5vh;
+    background-color: #F16262;
+}
+
+.titleHeader{
+    margin-left: 15px;
+    font: 700 2.5rem "Sansita";
+    color: #FFFF;
+}
+
+.alterarPaoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acrescimosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    /* background-color: darksalmon; */
+}
+
+.legendStyle{
+    font: 400 1.7rem "Ubuntu";
 }

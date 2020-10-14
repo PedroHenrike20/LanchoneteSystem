@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom';
-import ButtonTable from './components/Button';
 
 import "./styles.css"
 
@@ -14,21 +12,16 @@ interface TableProps{
 const Table:React.FC<TableProps> = ({title, legend, value}) =>{
     return(
         <>
-        <Link to="/menu/details" className="LinkLegend">
             <div className="table">
-                <div className="containerImage">
-
-                </div>
                 <div className="containerDescricao">
                     <h4 className="titleLanche">{title}</h4>
                     <p className="descricaoLanche">{legend}</p>
 
                 </div>
                 <div className="containerButtonBuy">
-                    <ButtonTable value={value}/>
+                    
                 </div>
             </div>
-            </Link>
             <div className="espacamentoTable"/>
         </>
     )
