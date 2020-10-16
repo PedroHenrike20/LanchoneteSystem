@@ -1,0 +1,46 @@
+.containerContador{
+    border: solid 2px;
+    border-radius: 8%;
+    width: 55%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    /* background-color: darkturquoise; */
+}
+
+.buttonContainer{
+    width: 30px;
+    height: 20px;
+    display: block;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.buttonMinus{
+    padding-top: 4px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.buttonPlus{
+    padding-top: 4px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.legendContador{
+    font: 700 2.7rem Sansita;
+    color: #676464;
+}
+
+.containerLegendContador{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}

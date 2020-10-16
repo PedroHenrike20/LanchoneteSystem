@@ -24,7 +24,7 @@
 }
 
 .containerButtonBuy{
-    margin: 5px 15px;
+    margin: 5px 25px 5px 0;
     width: 7vw;
     height: 8vh;
     display: flex;
@@ -44,4 +44,10 @@
 }
 .espacamentoTable{
     margin-bottom: 30px;
+}
+
+.LinkLegend{
+    width: 42vw;
+    height: 10vh;
+    display: flex;   
 }

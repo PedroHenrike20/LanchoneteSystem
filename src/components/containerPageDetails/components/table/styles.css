@@ -1,47 +1,36 @@
-.table{
+.tableBox{
     /* margin-bottom: 35px; */
     width: 50vw;
-    height: 10vh;
+    height: 8vh;
     border: solid 2px #FF0000;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
     
 }
-
-.containerImage{
-    margin: 5px 15px;
-    width: 7vw;
-    height: 8vh;
-    border-radius: 5px;
-    background-color: thistle;
-}
-
-.containerDescricao{
-    margin: 5px 0;
-    width: 33vw;
-    height: 8vh;
-    /* background-color: turquoise; */
-}
-
-.containerButtonBuy{
-    margin: 5px 15px;
-    width: 7vw;
-    height: 8vh;
+.titleContainerBox{
+    padding-bottom: 4px;
+    width: 50%;
+    height: 100%;
+    padding-right: 35%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.descricaoLanche{
-    font: 400 1.1rem "Ubuntu"
+.componentTableBox{
+    width: 50%;
+    height: 100%;
+    /* background-color: darkseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
-.titleLanche{
-    font: 700 1.5rem "Sansita";
-    margin-bottom: 5px;
+
+.legendTableBox{
+    font: 700 1.7rem Sansita;
+    color: #676464;
+    text-align: start;
 }
-.LinkLegend, .titleLanche, .descricaoLanche{
-    text-decoration: none;
-    color: black;
-    border-radius: 10px;
-}
-.espacamentoTable{
-    margin-bottom: 30px;
-}
+

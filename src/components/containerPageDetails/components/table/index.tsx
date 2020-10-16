@@ -4,23 +4,23 @@ import React from 'react';
 import "./styles.css"
 
 interface TableProps{
-    title: string,
-    legend: string,
-    value: number,
+    title?: string,
+    value?: string,
+    component?: Function,
 }
 // Burguer 180g triplo (Ponto da casa, bem passado) bacon, ovo, salcicha, presunto, queijo, molho especial no pão brioche.
-const Table:React.FC<TableProps> = ({title, legend, value}) =>{
+const Table:React.FC<TableProps> = ({title, component, value}) =>{
     return(
         <>
-            <div className="table">
-                <div className="containerDescricao">
-                    <h4 className="titleLanche">{title}</h4>
-                    <p className="descricaoLanche">{legend}</p>
+            <div className="tableBox">
+             <div className="titleContainerBox">
+                <h3 className="legendTableBox">{title}</h3>
+                <h3 className="legendTableBox">{value}</h3>
 
-                </div>
-                <div className="containerButtonBuy">
-                    
-                </div>
+             </div>
+             <div className="componentTableBox">
+                 {component}
+             </div>
             </div>
             <div className="espacamentoTable"/>
         </>

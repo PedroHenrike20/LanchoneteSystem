@@ -9,29 +9,25 @@
 .detailsContainer{
     width: 100%;
     height: 30vh;
-    /* background-color: aquamarine; */
-    padding: 20px;
     display: flex;
-    padding: 10px 30px;
+    justify-content: center;
 }
 
 .imageContainer{
-    margin: 30px 20px;
-    width: 18vw;
-    height: 19vh;
+    margin: 8px 20px;
+    width: 150px;
+    height: 140px;
     background-color: crimson;
     border-radius: 10px;
 }
 
 .detailsLanche{
-    margin-top: 25px;
     width: 30vw;
-    height: 19vh;
-    /* background-color: cyan; */
+    height: 21vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .titleStyle{
     font: 700 3.5rem "Sansita";
@@ -40,8 +36,7 @@
 .titleLancheContainer{
     width: 30vw;
     height: 7vh;
-    /* background-color:darkgreen; */
-    padding: 2px 4px;
+    padding: 0px 4px;
 }
 
 .legendLancheContainer{
@@ -50,19 +45,17 @@
     height: 13vh;
     display: flex;
     align-items: flex-end;
-    /* background-color: darkmagenta; */
+
 }
 
 .modification{
     width: 100%;
     height: 60vh;
-    /* background-color: darkorchid; */
 }
 
 .alterarPaoContainer{
     width: 100%;
     height: 25vh;
-    /* background-color: darkred; */
 }
 
 .headerTitle{
@@ -90,9 +83,15 @@
     align-items: center;
     width: 100%;
     height: 35vh;
-    /* background-color: darksalmon; */
 }
 
 .legendStyle{
     font: 400 1.7rem "Ubuntu";
+}
+
+.iconGoBack{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
 }

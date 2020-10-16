@@ -14,8 +14,8 @@ interface TableProps{
 const Table:React.FC<TableProps> = ({title, legend, value}) =>{
     return(
         <>
-        <Link to="/menu/details" className="LinkLegend">
             <div className="table">
+        <Link to="/menu/details" className="LinkLegend">
                 <div className="containerImage">
 
                 </div>
@@ -24,11 +24,12 @@ const Table:React.FC<TableProps> = ({title, legend, value}) =>{
                     <p className="descricaoLanche">{legend}</p>
 
                 </div>
+                
+            </Link>
                 <div className="containerButtonBuy">
                     <ButtonTable value={value}/>
                 </div>
             </div>
-            </Link>
             <div className="espacamentoTable"/>
         </>
     )

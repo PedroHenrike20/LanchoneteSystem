@@ -1,6 +1,8 @@
 import React from 'react';
 import {FaArrowLeft} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
+import Contador from './components/contador';
+import InputBoxCheck from './components/inputBoxCheck';
 
 import Table from './components/table';
 
@@ -9,8 +11,10 @@ import "./styles.css";
 function ContainerPageDetails(){
     return(
         <div className="containerPageDetails">
-            <div className="detailsContainer">
+            <div className="iconGoBack">
                 <Link to="/menu" style={{color: "#000000"}}><FaArrowLeft size={25}/></Link>
+            </div>
+            <div className="detailsContainer">
                 <div className="imageContainer">
 
                 </div>
@@ -33,15 +37,14 @@ function ContainerPageDetails(){
                 <div className="headerTitle">
                     <h3 className="titleHeader">Deseja alterar o seu pão?</h3>
                 </div>
-                <Table/>
+                <Table title="Pão Brioche" component={<InputBoxCheck/>}/>
 
             </div>
             <div className="acrescimosContainer">
             <div className="headerTitle">
                     <h3 className="titleHeader">Deseja acrescentar algo?</h3>
                 </div>
-                <Table/>
-                <Table/>
+                <Table title="Bacon" value="+ R$ 2,50" component={<Contador/>}/>
 
             </div>
             </div>
